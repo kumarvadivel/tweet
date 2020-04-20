@@ -1,7 +1,7 @@
 function foryou() {
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
     document.getElementById("news-content-sub").innerHTML = 'kksnknkdcnsldkhello world'
-    document.getElementById("news-feed1-img").style.background = 'URL("../img/news3.jpg")'
+    document.getElementById("news-feed1-img").style.background = 'URL("img/news3.jpg")'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("fryou").style.borderBottom = "2px solid #1DA1F3";
     document.getElementById("trend").style.borderBottom = "0px solid #1DA1F3";
@@ -15,7 +15,7 @@ function foryou() {
 function trending() {
     document.getElementById("news-content-sub").innerHTML = 'hello 1233world'
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
-    document.getElementById("news-feed1-img").style.background = 'URL("../img/news2.jpg")'
+    document.getElementById("news-feed1-img").style.background = 'URL("img/news2.jpg")'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("fryou").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("trend").style.borderBottom = "2px solid #1DA1F3";
@@ -30,7 +30,7 @@ function trending() {
 function news() {
     document.getElementById("news-content-sub").innerHTML = 'jhgghcgfxfdzdszds'
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
-    document.getElementById("news-feed1-img").style.background = 'URL("../img/news1.jpg")'
+    document.getElementById("news-feed1-img").style.background = 'URL("img/news1.jpg")'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("fryou").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("trend").style.borderBottom = "0px solid #1DA1F3";
@@ -60,7 +60,7 @@ function sports() {
 function fun() {
     document.getElementById("news-content-sub").innerHTML = 'hello jh world'
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
-    document.getElementById("news-feed1-img").style.background = 'URL("tweet/img/news2.jpg")'
+    document.getElementById("news-feed1-img").style.background = 'URL("img/news2.jpg")'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("fryou").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("trend").style.borderBottom = "0px solid #1DA1F3";
