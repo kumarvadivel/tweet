@@ -545,7 +545,7 @@
     #news-feed1-img {
         height: 100%;
         width: 100%;
-        background-image: url("img/news1.jpg");
+        background-image: URL("img/news1.jpg");
         background-size: cover;
     }
     
