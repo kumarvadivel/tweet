@@ -68,7 +68,6 @@ function fun() {
     document.getElementById("news").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("entertainment").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("sports").style.borderBottom = "0px solid #1DA1F3";
-
     document.getElementById("fun").style.borderBottom = "2px solid #1DA1F3";
 
 }
