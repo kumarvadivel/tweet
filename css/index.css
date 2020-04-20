@@ -116,8 +116,8 @@
     #suggest {
         margin-top: -10px;
         margin: 30px;
-        height: 400px;
-        width: 75%;
+        height: 350px;
+        width: 90%;
         border-radius: 20px;
         background-color: rgb(25, 39, 52);
         -webkit-border-radius: 20px;
@@ -675,7 +675,7 @@
             position: relative;
             user-select: none;
             color: rgb(255, 255, 255);
-            height: 2.0rem;
+            height: 1.5rem;
         }
         #ico-val {
             display: none;
@@ -770,10 +770,10 @@
         }
         #icos {
             position: fixed;
-            margin-top: 3.5%;
+            margin-top: 3.0%;
             width: 1.5em;
             height: 1.5em;
-            margin-left: 3.5%;
+            margin-left: 3.0%;
         }
         #searchb {
             position: fixed;
@@ -884,7 +884,7 @@
         }
         #icos {
             position: fixed;
-            margin-top: 5.5%;
+            margin-top: 4.5%;
             width: 1.5em;
             height: 1.5em;
             margin-left: 20px;
@@ -904,9 +904,9 @@
         }
         #prof-img-unknown1 {
             display: initial;
-            height: 5.5%;
-            width: 9%;
-            top: 2%;
+            height: 4.5%;
+            width: 7%;
+            top: 2.5%;
             border-radius: 50%;
             position: fixed;
             left: 6%;
@@ -1047,7 +1047,7 @@
             margin-left: 64%;
             border: 0px;
             width: 22%;
-            margin-top: 3%;
+            margin-top: 4%;
             height: 52%;
             border-Radius: 20px;
         }
