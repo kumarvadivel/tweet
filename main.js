@@ -43,7 +43,8 @@ function news() {
 }
 
 function sports() {
-    document.getElementById("news-feed1-img").style.background = 'URL(img/news1.jpeg)'
+    document.getElementById("news-feed1-img").style.background = 'URL('
+    img / news1.jpg ')'
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("news-content-sub").innerHTML = 'football fans cant control their lockdown time'
@@ -74,7 +75,7 @@ function fun() {
 
 function entertainment() {
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
-    document.getElementById("news-feed1-img").style.background = 'URL("img/newsentertainment.jpeg")'
+    document.getElementById("news-feed1-img").style.background = 'URL("img/news1.jpg")'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("news-content-sub").innerHTML = 'akshay kumar and amitabh bachan opens up about lockdown'
     document.getElementById("fryou").style.borderBottom = "0px solid #1DA1F3";
