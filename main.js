@@ -43,8 +43,7 @@ function news() {
 }
 
 function sports() {
-    document.getElementById("news-feed1-img").style.background = 'URL('
-    img / news1.jpg ')'
+    document.getElementById("news-feed1-img").style.background = 'URL("img/news1.jpg")'
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("news-content-sub").innerHTML = 'football fans cant control their lockdown time'
