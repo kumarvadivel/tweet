@@ -43,7 +43,7 @@ function news() {
 }
 
 function sports() {
-    document.getElementById("news-feed1-img").style.background = 'URL("../img/news2.jpg")'
+    document.getElementById("news-feed1-img").style.background = 'URL("https://github.com/kumarvadivel/tweet/blob/master/img/newsentertainment.jpeg")'
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("news-content-sub").innerHTML = 'football fans cant control their lockdown time'
@@ -60,7 +60,7 @@ function sports() {
 function fun() {
     document.getElementById("news-content-sub").innerHTML = 'hello jh world'
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
-    document.getElementById("news-feed1-img").style.background = 'URL("../img/news2.jpg")'
+    document.getElementById("news-feed1-img").style.background = 'URL("tweet/img/news2.jpg")'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("fryou").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("trend").style.borderBottom = "0px solid #1DA1F3";
