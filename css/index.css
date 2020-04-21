@@ -8,7 +8,7 @@
     #flex-body {
         display: flex;
         flex-direction: row;
-        height: 110%;
+        height: 100%;
         width: 100%;
     }
     
@@ -23,7 +23,7 @@
     #sidenav {
         width: 20%;
         border-right: .25px solid rgb(56, 68, 77);
-        overflow: hidden;
+        overflow: auto;
     }
     
     #middlenav {
@@ -96,6 +96,21 @@
         background-size: contain;
         border-radius: 50%;
         margin-top: -5%;
+    }
+    #tweebird{
+        height:30px;
+        max-width:100%;
+        position:relative;
+        fill:white;
+        user-select:none;
+        vertical-align:text-bottom;
+        color:#ffffff;
+        width:30px;
+        top:0;
+        left:-36px;
+        right:0;
+        bottom:0;
+        margin:auto;
     }
     
     #disname {
@@ -194,7 +209,7 @@
     #searchcan {
         position: fixed;
         top: 0%;
-        height: 10%;
+        height: 63px;
         width: 49.5%;
         background-color: rgb(22, 32, 42);
         border-right: .25px solid rgb(56, 68, 77);
@@ -205,7 +220,7 @@
         margin-left: 1%;
         margin-top: 1%;
         width: 40%;
-        height: 5%;
+        height:34px;
         border-radius: 25px;
         padding-left: 15px;
         border: 0px;
@@ -265,9 +280,9 @@
     
     #nav-bar {
         position: fixed;
-        height: 8%;
+        height: 57px;
         width: 49.45%;
-        top: 10%;
+        top: 63px;
         display: flex;
         background-color: rgb(22, 32, 42);
         flex-direction: row;
@@ -278,16 +293,17 @@
     #fryou {
         position: fixed;
         width: 8%;
-        height: 8%;
+        
         color: #88929C;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
+  
     
     #news {
         position: fixed;
-        height: 8%;
-        width: 8%;
+      
+        width:8%;
         left: 36%;
         color: #88929C;
         text-align: center;
@@ -297,7 +313,7 @@
     #trend {
         position: fixed;
         width: 8%;
-        height: 8%;
+        
         left: 28%;
         color: #88929C;
         font-family: 'Montserrat', sans-serif;
@@ -307,7 +323,7 @@
     #sport {
         position: fixed;
         width: 8%;
-        height: 8%;
+        
         left: 44%;
         color: #88929C;
         text-align: center;
@@ -317,7 +333,7 @@
     #fun {
         position: fixed;
         width: 8%;
-        height: 8%;
+        
         left: 52%;
         color: #88929C;
         font-family: 'Montserrat', sans-serif;
@@ -327,11 +343,15 @@
     #entertainment {
         position: fixed;
         width: 10%;
-        height: 8%;
+        
         left: 59.75%;
         color: #88929C;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
+    }
+    .nav-barc{
+        height:57px;
+        border-bottom: 0px solid #1DA1F3;
     }
     
     .nav-barc:hover {
@@ -367,7 +387,7 @@
     
     #nav-barside {
         display: flex;
-        height: 6%;
+        height: 52px;
         width: 100%;
         margin-left: initial;
     }
@@ -545,13 +565,13 @@
     #news-feed1-img {
         height: 100%;
         width: 100%;
-        background-image: URL("img/news1.jpg");
+        background-image: url("../img/news1.jpg");
         background-size: cover;
     }
     
     #side-nav-img-can {
-        height: 44%;
-        width: 8%;
+        height: 30px;
+        width: 30px;
         border-radius: 50%;
         margin-left: 28%;
         -webkit-border-radius: 50%;
@@ -560,6 +580,7 @@
         -o-border-radius: 50%;
         background-color: antiquewhite;
     }
+ 
     
     #prof-img-unknown {
         height: 100%;
@@ -623,6 +644,22 @@
         #lastnav {
             display: none;
         }
+        #tweebird{
+            height:30px;
+            max-width:100%;
+            position:relative;
+            fill:white;
+            user-select:none;
+            vertical-align:text-bottom;
+            color:#ffffff;
+            width:30px;
+            top:0;
+            left:27px;
+            align-content: center;
+            right:0;
+            bottom:0;
+            margin:auto;
+        }
         #tweet {
             align-items: center;
             background-color: #1DA1F3;
@@ -631,13 +668,13 @@
             margin-left: 20%;
             border: 0px;
             width: 64%;
-            height: 25%;
+            height: 30px;
             border-Radius: 20px;
             margin-left: 14%;
         }
         #side-nav-img-can {
-            height: 64%;
-            width: 28%;
+            height: 28px;
+            width: 28px;
             border-radius: 50%;
             margin-left: 30%;
             -webkit-border-radius: 50%;
@@ -705,7 +742,7 @@
         #fryou {
             position: fixed;
             width: 14%;
-            height: 8%;
+            
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
             text-align: center;
@@ -713,7 +750,7 @@
         #trend {
             position: fixed;
             width: 15%;
-            height: 8%;
+           
             left: 30%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -721,7 +758,7 @@
         }
         #news {
             position: fixed;
-            height: 8%;
+        
             width: 11%;
             left: 46%;
             color: #88929C;
@@ -732,16 +769,19 @@
         #entertainment {
             position: fixed;
             width: 17%;
-            height: 8%;
+           
             left: 82.75%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
             text-align: center;
         }
+        #tweebird{
+            margin-left:10px;
+        }
         #fun {
             position: fixed;
             width: 12%;
-            height: 8%;
+            
             left: 71%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -750,7 +790,7 @@
         #sport {
             position: fixed;
             width: 14%;
-            height: 8%;
+            
             left: 57%;
             color: #88929C;
             text-align: center;
@@ -758,9 +798,9 @@
         }
         #nav-bar {
             position: fixed;
-            height: 8%;
+            height: 55px;
             width: 84.45%;
-            top: 10%;
+            top: 63px;
             display: flex;
             background-color: rgb(22, 32, 42);
             flex-direction: row;
@@ -779,7 +819,7 @@
             margin-left: 2%;
             margin-top: 2%;
             width: 68%;
-            height: 5%;
+            height: 34px;
             border-radius: 25px;
             padding-left: 15px;
             border: 0px;
@@ -793,19 +833,19 @@
         #searchcan {
             position: fixed;
             top: 0%;
-            height: 10%;
+            height: 63px;
             width: 84.5%;
             background-color: rgb(22, 32, 42);
             border-right: .25px solid rgb(56, 68, 77);
         }
         #settingico {
             position: fixed;
-            margin-top: 1.9%;
+            margin-top: 22px;
             margin-left: 75%;
         }
         .svg-icon {
-            width: 3em;
-            height: 3em;
+            width: 2em;
+            height: 2em;
         }
         #middlenav {
             width: 85%;
@@ -854,27 +894,12 @@
         }
         #icos {
             position: fixed;
-            margin-top: 3.5%;
+            margin-top: 23px;
             width: 1.5em;
             height: 1.5em;
-            margin-left: 16%;
+            margin-left: 20px;
         }
-        #searchb {
-            position: fixed;
-            margin-left: 10%;
-            margin-top: 3%;
-            width: 46%;
-            height: 5%;
-            border-radius: 25px;
-            padding-left: 15px;
-            border: 0px;
-            font-size: 14px;
-            font-family: 'Montserrat', sans-serif;
-            background-color: rgb(56, 68, 77);
-            -moz-border-radius: 25px;
-            -ms-border-radius: 25px;
-            -o-border-radius: 25px;
-        }
+       
         #middlenav {
             width: 100%;
         }
@@ -896,25 +921,25 @@
         #searchcan {
             position: fixed;
             top: 0%;
-            height: 8%;
+            height: 57px;
             width: 100%;
             background-color: rgb(22, 32, 42);
             border-right: .25px solid rgb(56, 68, 77);
         }
         #prof-img-unknown1 {
             display: initial;
-            height: 4.5%;
-            width: 7%;
-            top: 2.5%;
+            height: 32px;
+            width: 32px;
+            top: 16px;
             border-radius: 50%;
             position: fixed;
             left: 6%;
         }
         #nav-bar {
             position: fixed;
-            height: 9%;
+            height: 56px;
             width: 100%;
-            top: 8%;
+            top: 58px;
             display: flex;
             background-color: rgb(22, 32, 42);
             flex-direction: row;
@@ -937,7 +962,7 @@
             position: fixed;
             left: 0%;
             width: 20%;
-            height: 8%;
+            
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
             text-align: center;
@@ -945,7 +970,7 @@
         #entertainment {
             position: fixed;
             width: 30%;
-            height: 8%;
+            
             left: 68.75%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -955,7 +980,7 @@
             display: none;
             position: fixed;
             width: 14%;
-            height: 8%;
+           
             left: 60%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -965,7 +990,7 @@
             display: none;
             position: fixed;
             width: 14%;
-            height: 8%;
+            
             left: 46%;
             color: #88929C;
             text-align: center;
@@ -974,7 +999,7 @@
         #trend {
             position: fixed;
             width: 28%;
-            height: 8%;
+            
             left: 20%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -982,13 +1007,13 @@
         }
         #news {
             position: fixed;
-            height: 8%;
+          
             width: 20%;
             left: 48%;
             color: #88929C;
             text-align: center;
             font-family: 'Montserrat', sans-serif;
-            border-bottom: 2px solid #1DA1F3;
+           
         }
         element.style {
             height: 30px;
@@ -1037,6 +1062,22 @@
         #ico:hover {
             color: #1DA1F3;
         }
+        #searchb {
+            position: fixed;
+            margin-left: 9%;
+            margin-top: 18px;
+            width: 49%;
+            height: 31px;
+            border-radius: 25px;
+            padding-left: 15px;
+            border: 0px;
+            font-size: 14px;
+            font-family: 'Montserrat', sans-serif;
+            background-color: rgb(56, 68, 77);
+            -moz-border-radius: 25px;
+            -ms-border-radius: 25px;
+            -o-border-radius: 25px;
+        }
         #tweet1 {
             display: initial;
             align-items: center;
@@ -1046,8 +1087,8 @@
             margin-left: 64%;
             border: 0px;
             width: 22%;
-            margin-top: 4%;
-            height: 52%;
+            margin-top: 21px;
+            height: 29px;
             border-Radius: 20px;
         }
         #settingico {
@@ -1056,4 +1097,9 @@
             margin-left: 70%;
             display: none;
         }
+    }
+    @media only screen and (max-width:1175px) {
+
+
+        
     }

@@ -47,13 +47,14 @@ function sports() {
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
     document.getElementById("news-content-sub").innerHTML = 'football fans cant control their lockdown time'
+    document.getElementById("sports").style.borderBottom = "2px solid #1DA1F3";
+    document.getElementById("fun").style.borderBottom="0px solid #1DA1F3";
     document.getElementById("fryou").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("trend").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("news").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("entertainment").style.borderBottom = "0px solid #1DA1F3";
-    document.getElementById("sports").style.borderBottom = "2px solid #1DA1F3";
-
-    document.getElementById("fun").style.borderBottom = "0px solid #1DA1F3";
+    
+    
 
 }
 
@@ -62,12 +63,13 @@ function fun() {
     document.getElementById("news-content").innerHTML = 'Coronavirus  |  1 hour ago'
     document.getElementById("news-feed1-img").style.background = 'URL("img/news2.jpg")'
     document.getElementById("news-feed1-img").style.backgroundSize = "cover";
+    document.getElementById("fun").style.borderBottom="2px solid #1DA1F3"
     document.getElementById("fryou").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("trend").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("news").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("entertainment").style.borderBottom = "0px solid #1DA1F3";
     document.getElementById("sports").style.borderBottom = "0px solid #1DA1F3";
-    document.getElementById("fun").style.borderBottom = "2px solid #1DA1F3";
+   
 
 }
 
