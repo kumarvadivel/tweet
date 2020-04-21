@@ -526,7 +526,7 @@
         margin-left: 25%;
         border: 0px;
         width: 50%;
-        height: 25%;
+        height: 43px;
         border-Radius: 20px;
     }
     
@@ -644,21 +644,21 @@
         #lastnav {
             display: none;
         }
-        #tweebird{
-            height:30px;
-            max-width:100%;
-            position:relative;
-            fill:white;
-            user-select:none;
-            vertical-align:text-bottom;
-            color:#ffffff;
-            width:30px;
-            top:0;
-            left:27px;
+        #tweebird {
+            height: 25px;
+            max-width: 100%;
+            position: relative;
+            top: -13px;
+            fill: white;
+            user-select: none;
+            vertical-align: text-bottom;
+            color: #ffffff;
+            width: 30px;
+            left: 27px;
             align-content: center;
-            right:0;
-            bottom:0;
-            margin:auto;
+            right: 0;
+            bottom: 0;
+            margin: auto;
         }
         #tweet {
             align-items: center;
