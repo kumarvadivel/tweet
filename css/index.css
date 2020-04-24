@@ -1,8 +1,247 @@
     html,
     body {
         background: rgb(22, 32, 42);
+        margin: 0px;
+        color: white;
+        overflow-x: hidden;
+        scrollbar-width: none;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    . .feed {
+        display: flex;
+        flex-direction: column;
+        margin-top: 18vh;
+        height: fit-content;
+    }
+    
+    .tweet-input {
+        height: 50%;
+    }
+    
+    .tweet-tex {
+        display: flex;
+        flex-direction: column;
+        left: 15%;
+        width: 85%;
         height: 100%;
-        overflow: hidden;
+    }
+    
+    #tweetbar-img {
+        width: 50px;
+        height: 35%;
+        border-radius: 50%;
+    }
+    
+    .tweet-prof {
+        height: 100%;
+        width: 15%;
+    }
+    
+     ::-webkit-scrollbar {
+        width: 0px;
+    }
+    
+    .box1 {
+        padding-top: 3%;
+        height: 15%;
+        width: 35%;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .news {
+        display: flex;
+        padding: 3%;
+        height: 45vh;
+        border-bottom: 1px solid #46515A;
+    }
+    
+    .box2-box1 {
+        height: 10%;
+    }
+    
+    .box2-box2 {
+        height: 90%;
+    }
+    
+    .news-box1 {
+        align-content: center;
+        width: 20%;
+    }
+    
+    .news-box2 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+    
+    .prof-img {
+        height: 100%;
+        width: 20%;
+    }
+    
+    .img {
+        height: 50%;
+        width: 50px;
+        border-radius: 50%;
+        margin-top: 17px;
+        margin-left: 7px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    
+    .tex {
+        padding-top: 10px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tweet-bar {
+        display: flex;
+        position: relative;
+        margin-top: 22vh;
+        height: 10vh;
+        width: 94%;
+        padding: 3%;
+        border-bottom: 10px solid #253341;
+    }
+    
+    .sub-trends1 {
+        display: flex;
+        width: 96%;
+        height: 103px;
+        padding: 7px;
+        border-bottom: 1px solid #46515A;
+    }
+    
+    .trends-head {
+        margin-top: 20px;
+        width: fit-content;
+        margin-left: 15px;
+        position: relative;
+    }
+    
+    .trendsforyou {
+        margin-top: 80px;
+        height: 500px;
+        width: 100%;
+        background-color: #192734;
+        border-radius: 15px;
+        z-index: 0;
+    }
+    
+    .tag {
+        margin-left: 7px;
+    }
+    
+    .cont {
+        color: #5D6D7A;
+        font-size: 15px;
+        font-weight: 100;
+        margin-left: 7px;
+    }
+    
+    .sub-trends {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 66px;
+        padding-top: 5px;
+        border-bottom: 1px solid #46515A;
+    }
+    
+    #end {
+        border-top-left-radius: 20px;
+        border-bottom: 0px;
+        margin-top: 17px;
+        margin-left: 13px;
+    }
+    
+    .whotofollow {
+        margin-top: 80px;
+        height: 500px;
+        width: 100%;
+        background-color: #192734;
+        border-radius: 15px;
+    }
+    
+    .searchbar {
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        margin-top: -12px;
+        background-color: #16202A;
+        z-index: 1;
+    }
+    
+    .star-home {
+        width: fit-content;
+        left: 85%;
+        padding: 34px;
+        fill: #1DA1F3;
+    }
+    
+    .sparkle-svg {
+        height: 100%;
+        width: 100%;
+        color: #1DA1F3;
+    }
+    
+    .search {
+        position: fixed;
+        display: flex;
+        flex-wrap: none;
+        height: 50px;
+        width: 22.5%;
+        z-index: 1;
+    }
+    
+    .search-ico {
+        height: 97%;
+        width: 20%;
+        padding-right: -8px;
+        background: #253341;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    
+    .input-search {
+        left: 20%;
+        height: 94%;
+        width: 80%;
+        border: 0px;
+        color: #546371;
+        background-color: #253341;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    
+    .text-home {
+        left: 20%;
+        padding-left: 20px;
+        padding-top: 30px;
+        font-size: 20px;
+        font-weight: 700;
+        width: 630%;
+    }
+    
+    .last-bar {
+        left: 20%;
+        padding-left: 20px;
+        padding-top: 10px;
+        font-size: 20px;
+        font-weight: 700;
+        width: 90%;
+        display: flex;
+        background-color: #16202A;
+        flex-direction: column;
     }
     
     #flex-body {
@@ -10,6 +249,17 @@
         flex-direction: row;
         height: 100%;
         width: 100%;
+    }
+    
+    .home {
+        display: flex;
+        position: fixed;
+        width: 49.8%;
+        left: 20%;
+        height: 85px;
+        border-bottom: 1px solid #46515A;
+        z-index: 1;
+        background-color: #16202A;
     }
     
     #tweet1 {
@@ -21,22 +271,33 @@
     }
     
     #sidenav {
+        position: fixed;
         width: 20%;
+        height: 100%;
         border-right: .25px solid rgb(56, 68, 77);
         overflow: auto;
     }
     
     #middlenav {
+        display: flex;
+        flex-direction: column;
+        position: fixed;
         border-right: .25px solid rgb(56, 68, 77);
         width: 50%;
+        height: 100%;
         overflow: auto;
-        scrollbar-width: none;
+        left: 20%;
     }
     
     #lastnav {
+        position: fixed;
+        flex-direction: row;
         border-right: .25px solid rgb(56, 68, 77);
+        height: 100%;
         width: 30%;
+        margin-left: 70%;
         overflow: auto;
+        overflow-x: hidden;
     }
     
     #side-nav-img-can1 {
@@ -97,20 +358,21 @@
         border-radius: 50%;
         margin-top: -5%;
     }
-    #tweebird{
-        height:30px;
-        max-width:100%;
-        position:relative;
-        fill:white;
-        user-select:none;
-        vertical-align:text-bottom;
-        color:#ffffff;
-        width:30px;
-        top:0;
-        left:-36px;
-        right:0;
-        bottom:0;
-        margin:auto;
+    
+    #tweebird {
+        height: 30px;
+        max-width: 100%;
+        position: relative;
+        fill: white;
+        user-select: none;
+        vertical-align: text-bottom;
+        color: #ffffff;
+        width: 30px;
+        top: 0;
+        left: -36px;
+        right: 0;
+        bottom: 0;
+        margin: auto;
     }
     
     #disname {
@@ -220,7 +482,7 @@
         margin-left: 1%;
         margin-top: 1%;
         width: 40%;
-        height:34px;
+        height: 34px;
         border-radius: 25px;
         padding-left: 15px;
         border: 0px;
@@ -232,9 +494,12 @@
         -o-border-radius: 25px;
     }
     
-    .svg-icon {
-        width: 1em;
-        height: 1em;
+    .search-icon {
+        width: 60%;
+        height: 60%;
+        margin-top: 9px;
+        margin-left: 9px;
+        fill: #546371;
     }
     
     .svg-icon path,
@@ -293,17 +558,14 @@
     #fryou {
         position: fixed;
         width: 8%;
-        
         color: #88929C;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
-  
     
     #news {
         position: fixed;
-      
-        width:8%;
+        width: 8%;
         left: 36%;
         color: #88929C;
         text-align: center;
@@ -313,7 +575,6 @@
     #trend {
         position: fixed;
         width: 8%;
-        
         left: 28%;
         color: #88929C;
         font-family: 'Montserrat', sans-serif;
@@ -323,7 +584,6 @@
     #sport {
         position: fixed;
         width: 8%;
-        
         left: 44%;
         color: #88929C;
         text-align: center;
@@ -333,7 +593,6 @@
     #fun {
         position: fixed;
         width: 8%;
-        
         left: 52%;
         color: #88929C;
         font-family: 'Montserrat', sans-serif;
@@ -343,14 +602,14 @@
     #entertainment {
         position: fixed;
         width: 10%;
-        
         left: 59.75%;
         color: #88929C;
         font-family: 'Montserrat', sans-serif;
         text-align: center;
     }
-    .nav-barc{
-        height:57px;
+    
+    .nav-barc {
+        height: 57px;
         border-bottom: 0px solid #1DA1F3;
     }
     
@@ -580,16 +839,11 @@
         -o-border-radius: 50%;
         background-color: antiquewhite;
     }
- 
     
     #prof-img-unknown {
         height: 100%;
         width: 100%;
         border-radius: 50%;
-    }
-    
-     ::-webkit-scrollbar {
-        width: 0px;
     }
     
     #news-content {
@@ -640,9 +894,23 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     
-    @media only screen and (max-width: 1024px) {
+    @media only screen and (max-width: 1224px) {
         #lastnav {
             display: none;
+        }
+        .box1 {
+            padding-top: 3%;
+            height: 19%;
+            width: 35%;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+        .home {
+            width: 85%;
+            left: 15%;
         }
         #tweebird {
             height: 25px;
@@ -742,7 +1010,6 @@
         #fryou {
             position: fixed;
             width: 14%;
-            
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
             text-align: center;
@@ -750,7 +1017,6 @@
         #trend {
             position: fixed;
             width: 15%;
-           
             left: 30%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -758,7 +1024,6 @@
         }
         #news {
             position: fixed;
-        
             width: 11%;
             left: 46%;
             color: #88929C;
@@ -769,19 +1034,17 @@
         #entertainment {
             position: fixed;
             width: 17%;
-           
             left: 82.75%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
             text-align: center;
         }
-        #tweebird{
-            margin-left:10px;
+        #tweebird {
+            margin-left: 10px;
         }
         #fun {
             position: fixed;
             width: 12%;
-            
             left: 71%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -790,7 +1053,6 @@
         #sport {
             position: fixed;
             width: 14%;
-            
             left: 57%;
             color: #88929C;
             text-align: center;
@@ -849,6 +1111,7 @@
         }
         #middlenav {
             width: 85%;
+            left: 15%;
         }
         #sidenav {
             width: 15%;
@@ -862,9 +1125,23 @@
         }
     }
     
-    @media only screen and (max-width: 550px) {
+    @media only screen and (max-width: 600px) {
         #sidenav {
             display: none;
+        }
+        .box1 {
+            padding-top: 3%;
+            height: 19%;
+            width: 50%;
+            border-radius: 50%;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+        }
+        .home {
+            width: 100%;
+            left: 0%;
         }
         #tweebird-mobile {
             display: initial;
@@ -899,9 +1176,9 @@
             height: 1.5em;
             margin-left: 20px;
         }
-       
         #middlenav {
             width: 100%;
+            left: 0%;
         }
         #lastnav {
             display: none;
@@ -962,7 +1239,6 @@
             position: fixed;
             left: 0%;
             width: 20%;
-            
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
             text-align: center;
@@ -970,7 +1246,6 @@
         #entertainment {
             position: fixed;
             width: 30%;
-            
             left: 68.75%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -980,7 +1255,6 @@
             display: none;
             position: fixed;
             width: 14%;
-           
             left: 60%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -990,7 +1264,6 @@
             display: none;
             position: fixed;
             width: 14%;
-            
             left: 46%;
             color: #88929C;
             text-align: center;
@@ -999,7 +1272,6 @@
         #trend {
             position: fixed;
             width: 28%;
-            
             left: 20%;
             color: #88929C;
             font-family: 'Montserrat', sans-serif;
@@ -1007,13 +1279,11 @@
         }
         #news {
             position: fixed;
-          
             width: 20%;
             left: 48%;
             color: #88929C;
             text-align: center;
             font-family: 'Montserrat', sans-serif;
-           
         }
         element.style {
             height: 30px;
@@ -1097,9 +1367,4 @@
             margin-left: 70%;
             display: none;
         }
-    }
-    @media only screen and (max-width:1175px) {
-
-
-        
     }
