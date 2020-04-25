@@ -105,6 +105,7 @@ p {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
+    overflow-x: hidden;
     height: fit-content;
 }
 
