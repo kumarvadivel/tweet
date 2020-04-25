@@ -124,7 +124,7 @@ p {
     width: 15%;
 }
 
- ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 0px;
 }
 
@@ -171,7 +171,8 @@ p {
 }
 
 .prof-img {
-    margin-top: 3% height: 40px;
+    margin-top: 1%;
+    height: 40px;
     width: 40px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
@@ -195,7 +196,7 @@ p {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 7px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -415,10 +416,6 @@ p {
     background-color: #16202A;
 }
 
-#tweet1 {
-    display: none;
-}
-
 #tweebird-mobile {
     display: none;
 }
@@ -485,25 +482,6 @@ p {
     display: none;
 }
 
-#ro {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px solid rgb(56, 68, 77);
-    height: 25%;
-}
-
-#ro:hover {
-    background-color: #46515A;
-}
-
-#ro1 {
-    position: relative;
-    display: flex;
-    top: 0px;
-    flex-direction: column;
-    height: 10%;
-}
-
 #profile-pic {
     height: 100%;
     width: 100%;
@@ -536,66 +514,6 @@ p {
     fill: #46515A;
 }
 
-#disname {
-    top: -126%;
-    left: 126%;
-    position: relative;
-    margin-top: 13%;
-    display: flex;
-    flex-direction: column;
-    height: 20%;
-    white-space: nowrap;
-    color: white;
-    font-size: 16px;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-}
-
-#suggest {
-    margin-top: -10px;
-    margin: 30px;
-    height: 350px;
-    width: 90%;
-    border-radius: 20px;
-    background-color: rgb(25, 39, 52);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-}
-
-#imgcan {
-    height: 50px;
-    width: 50px;
-    padding-top: 30px;
-    padding-left: 15px;
-    border-radius: 50%;
-}
-
-#showmo {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    height: 88px;
-    padding-left: 15px;
-    padding-top: 5px;
-    color: #1DA1F3;
-    font-family: 'Open Sans', sans-serif;
-}
-
-#ro1:hover {
-    background-color: #46515A;
-    display: block;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-}
-
-#username {
-    height: 143%;
-    width: fit-content;
-    font-size: 100%;
-}
-
 #follow {
     position: relative;
     display: flex;
@@ -614,41 +532,6 @@ p {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-}
-
-#info {
-    margin-top: 15px;
-    margin-left: 5px;
-    color: #88929C;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 12px;
-    text-align: center;
-}
-
-#searchcan {
-    position: fixed;
-    top: 0%;
-    height: 63px;
-    width: 49.5%;
-    background-color: rgb(22, 32, 42);
-    border-right: .25px solid rgb(56, 68, 77);
-}
-
-#searchb {
-    position: fixed;
-    margin-left: 1%;
-    margin-top: 1%;
-    width: 40%;
-    height: 34px;
-    border-radius: 25px;
-    padding-left: 15px;
-    border: 0px;
-    font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
-    background-color: rgb(56, 68, 77);
-    -moz-border-radius: 25px;
-    -ms-border-radius: 25px;
-    -o-border-radius: 25px;
 }
 
 .search-icon {
@@ -683,17 +566,6 @@ p {
     height: 1.5em;
 }
 
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-    fill: #4691f6;
-}
-
-.svg-icon circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-}
-
 #settingico {
     margin-top: -5%;
     margin-left: 80%;
@@ -701,119 +573,13 @@ p {
     padding-bottom: 3%;
 }
 
-
-}
-#nav-bar {
-    position: fixed;
-    height: 57px;
-    width: 49.45%;
-    top: 63px;
-    display: flex;
-    background-color: rgb(22, 32, 42);
-    flex-direction: row;
-    border-bottom: .5px solid rgb(56, 68, 77);
-    border-right: .5px solid rgb(56, 68, 77);
-}
-#fryou {
-    position: fixed;
-    width: 8%;
-    color: #88929C;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-#news {
-    position: fixed;
-    width: 8%;
-    left: 36%;
-    color: #88929C;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-#trend {
-    position: fixed;
-    width: 8%;
-    left: 28%;
-    color: #88929C;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-#sport {
-    position: fixed;
-    width: 8%;
-    left: 44%;
-    color: #88929C;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-#fun {
-    position: fixed;
-    width: 8%;
-    left: 52%;
-    color: #88929C;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-#entertainment {
-    position: fixed;
-    width: 10%;
-    left: 59.75%;
-    color: #88929C;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-.nav-barc {
-    height: 57px;
-    border-bottom: 0px solid #1DA1F3;
-}
-.nav-barc:hover {
-    background-color: rgb(22, 45, 64);
-    align-content: center;
-}
-.nav-barc:hover>#nav-bart {
-    color: #1DA1F3;
-}
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-    fill: #4691f6;
-}
-.svg-icon circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-}
-#nav-bart {
-    position: relative;
-    top: 20px;
-}
-#usname {
-    font-size: small;
-    font-weight: 0;
-    color: #88929C;
-}
 #nav-barside {
     display: flex;
     height: 52px;
     width: 100%;
     margin-left: initial;
 }
-element.style {
-    height: 35%;
-    max-width: 100%;
-    position: relative;
-    fill: white;
-    user-select: none;
-    vertical-align: text-bottom;
-    color: #ffffff;
-    width: 30%;
-    top: 0;
-    left: -17%;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-}
-#nav-barside:hover {
-    background-color: #46515A;
-}
+
 #nav-barside1 {
     display: flex;
     height: 10%;
@@ -821,42 +587,23 @@ element.style {
     left: -50px;
     margin-top: 10px;
 }
+
 #nav-barside1:hover {
     background-color: #46515A;
 }
+
 #nav-barside:hover svg {
     color: #1DA1F3;
 }
+
 #nav-barside:hover span {
     color: #1DA1F3;
 }
+
 #nav-barside1:hover #tweebird {
     color: #1DA1F3;
 }
-#tweetnav {
-    margin-top: 40px;
-    height: 20%;
-    align-content: center;
-    align-items: center;
-}
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-    fill: #4691f6;
-}
-.svg-icon circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-}
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-    fill: #4691f6;
-}
-.svg-icon circle {
-    stroke: #4691f6;
-    stroke-width: 1;
-}
+
 #ico {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     pointer-events: auto;
@@ -875,6 +622,7 @@ element.style {
     color: rgb(255, 255, 255);
     height: 1.75rem;
 }
+
 #ico-val {
     display: flex;
     flex-direction: row;
@@ -886,6 +634,7 @@ element.style {
     color: white;
     font-weight: 900;
 }
+
 #prof-img-unknown1 {
     display: none;
     height: 6%;
@@ -895,6 +644,7 @@ element.style {
     position: fixed;
     left: 70%;
 }
+
 #ico-val1 {
     display: flex;
     flex-direction: row;
@@ -906,6 +656,7 @@ element.style {
     color: white;
     font-weight: 900;
 }
+
 #tweet {
     align-items: center;
     background-color: #1DA1F3;
@@ -917,39 +668,7 @@ element.style {
     height: 43px;
     border-Radius: 20px;
 }
-#icosv {
-    height: 100%;
-    width: 100%;
-}
-#news-feed {
-    margin-top: 100px;
-    height: 1000px;
-    background-color: #88929C;
-}
-#subnews1 {
-    top: 120px;
-    height: 100px;
-    border-top: 10px solid rgb(56, 68, 77);
-    background-color: rgb(22, 32, 42);
-    border-bottom: 1px solid rgb(56, 68, 77);
-}
-#subnews0 {
-    height: 100px;
-    width: 100%;
-    background-color: rgb(22, 32, 42);
-    border-bottom: 1px solid rgb(56, 68, 77);
-}
-#news-feed1 {
-    height: 300px;
-    background-color: #1DA1F3;
-    border-right: 1px solid rgb(56, 68, 77);
-}
-#news-feed1-img {
-    height: 100%;
-    width: 100%;
-    background-image: url("../img/news1.jpg");
-    background-size: cover;
-}
+
 #side-nav-img-can {
     height: 30px;
     width: 30px;
@@ -961,66 +680,23 @@ element.style {
     -o-border-radius: 50%;
     background-color: antiquewhite;
 }
+
 #prof-img-unknown {
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
-#news-content {
-    position: relative;
-    top: 220px;
-    margin-left: 15px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    font-weight: 900;
-}
-#news-content-sub {
-    position: relative;
-    top: 250px;
-    margin-left: -195px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 900;
-}
-#sub-news-main1 {
-    position: relative;
-    top: 15px;
-    padding-left: 15px;
-    color: #46515A;
-    font-size: 14px;
-    white-space: wrap;
-    font-family: Arial, Helvetica, sans-serif;
-}
-#sub-news-main0 {
-    position: relative;
-    top: 15px;
-    padding-left: 15px;
-    color: white;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-}
-pre {
-    position: relative;
-    top: -15px;
-    padding-left: 15px;
-    color: white;
-    font-weight: 900;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 @media only screen and (max-width: 1024px) {
     #lastnav {
         display: none;
     }
-    
     .news-prof {
         height: initial;
         width: 5%;
         padding-left: 3%;
         padding-top: 3%;
     }
-    
     .box1 {
         padding-top: 3%;
         height: 19%;
@@ -1031,12 +707,10 @@ pre {
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
     }
-    
     .home {
         width: 85%;
         left: 15%;
     }
-    
     #tweebird {
         height: 25px;
         max-width: 100%;
@@ -1053,7 +727,6 @@ pre {
         bottom: 0;
         margin: auto;
     }
-    
     #tweet {
         align-items: center;
         background-color: #1DA1F3;
@@ -1066,7 +739,6 @@ pre {
         border-Radius: 20px;
         margin-left: 14%;
     }
-    
     #side-nav-img-can {
         height: 28px;
         width: 28px;
@@ -1078,7 +750,6 @@ pre {
         -o-border-radius: 50%;
         background-color: antiquewhite;
     }
-    
     #side-nav-img-can1 {
         display: none;
         height: 44%;
@@ -1091,7 +762,6 @@ pre {
         -o-border-radius: 50%;
         background-color: antiquewhite;
     }
-    
     #ico {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         pointer-events: auto;
@@ -1110,7 +780,6 @@ pre {
         color: rgb(255, 255, 255);
         height: 1.5rem;
     }
-    
     #ico-val {
         display: none;
         flex-direction: row;
@@ -1122,93 +791,9 @@ pre {
         color: white;
         font-weight: 900;
     }
-    
-    Style Attribute {
-        height: 35%;
-        max-width: 100%;
-        position: relative;
-        fill: white;
-        user-select: none;
-        vertical-align: text-bottom;
-        color: #ffffff;
-        width: 30%;
-        top: 0;
-        left: -1%;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
-    
-    #fryou {
-        position: fixed;
-        width: 14%;
-        color: #88929C;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
-    
-    #trend {
-        position: fixed;
-        width: 15%;
-        left: 30%;
-        color: #88929C;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
-    
-    #news {
-        position: fixed;
-        width: 11%;
-        left: 46%;
-        color: #88929C;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-        border-bottom: 2px solid #1DA1F3;
-    }
-    
-    #entertainment {
-        position: fixed;
-        width: 17%;
-        left: 82.75%;
-        color: #88929C;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
-    
     #tweebird {
         margin-left: 10px;
     }
-    
-    #fun {
-        position: fixed;
-        width: 12%;
-        left: 71%;
-        color: #88929C;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
-    
-    #sport {
-        position: fixed;
-        width: 14%;
-        left: 57%;
-        color: #88929C;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-    #nav-bar {
-        position: fixed;
-        height: 55px;
-        width: 84.45%;
-        top: 63px;
-        display: flex;
-        background-color: rgb(22, 32, 42);
-        flex-direction: row;
-        border-bottom: .5px solid rgb(56, 68, 77);
-        border-right: .5px solid rgb(56, 68, 77);
-    }
-    
     #icos {
         position: fixed;
         margin-top: 3.0%;
@@ -1216,73 +801,31 @@ pre {
         height: 1.5em;
         margin-left: 3.0%;
     }
-    
-    #searchb {
-        position: fixed;
-        margin-left: 2%;
-        margin-top: 2%;
-        width: 68%;
-        height: 34px;
-        border-radius: 25px;
-        padding-left: 15px;
-        border: 0px;
-        font-size: 14px;
-        font-family: 'Montserrat', sans-serif;
-        background-color: rgb(56, 68, 77);
-        -moz-border-radius: 25px;
-        -ms-border-radius: 25px;
-        -o-border-radius: 25px;
-    }
-    
-    #searchcan {
-        position: fixed;
-        top: 0%;
-        height: 63px;
-        width: 84.5%;
-        background-color: rgb(22, 32, 42);
-        border-right: .25px solid rgb(56, 68, 77);
-    }
-    
-    #settingico {
-        position: fixed;
-        margin-top: 22px;
-        margin-left: 75%;
-    }
-    
     #middlenav {
         width: 85%;
         left: 15%;
     }
-    
     #sidenav {
         width: 15%;
     }
-    
     #lastnav {
         display: none;
     }
-    
-    .nav-barc:hover {
-        background-color: rgb(22, 45, 64);
-        align-content: center;
-    }
 }
+
 @media only screen and (max-width: 600px) {
     #sidenav {
         display: none;
     }
-    
     .news-prof {
         height: initial;
         width: 8%;
         padding-left: 3%;
         padding-top: 3%;
     }
-    
     .inputsp-s {
         margin-left: 5%;
     }
-    
     .box1 {
         padding-top: 3%;
         height: 19%;
@@ -1293,35 +836,10 @@ pre {
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
     }
-    
     .home {
         width: 100%;
         left: 0%;
     }
-    
-    #tweebird-mobile {
-        display: initial;
-        margin-top: 5%;
-        height: 100%;
-        width: 100%;
-    }
-    
-    element.style {
-        height: 30px;
-        max-width: 100%;
-        position: relative;
-        fill: white;
-        user-select: none;
-        vertical-align: text-bottom;
-        color: #ffffff;
-        width: 30px;
-        top: 16px;
-        left: 30px;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
-    
     #icos {
         position: fixed;
         margin-top: 23px;
@@ -1329,16 +847,13 @@ pre {
         height: 1.5em;
         margin-left: 20px;
     }
-    
     #middlenav {
         width: 100%;
         left: 0%;
     }
-    
     #lastnav {
         display: none;
     }
-    
     #icos {
         position: fixed;
         margin-top: 4.5%;
@@ -1346,44 +861,11 @@ pre {
         height: 1.5em;
         margin-left: 20px;
     }
-    
     #settingico {
         position: fixed;
         margin-top: 1.9%;
         margin-left: 70%;
     }
-    
-    #searchcan {
-        position: fixed;
-        top: 0%;
-        height: 57px;
-        width: 100%;
-        background-color: rgb(22, 32, 42);
-        border-right: .25px solid rgb(56, 68, 77);
-    }
-    
-    #prof-img-unknown1 {
-        display: initial;
-        height: 32px;
-        width: 32px;
-        top: 16px;
-        border-radius: 50%;
-        position: fixed;
-        left: 6%;
-    }
-    
-    #nav-bar {
-        position: fixed;
-        height: 56px;
-        width: 100%;
-        top: 58px;
-        display: flex;
-        background-color: rgb(22, 32, 42);
-        flex-direction: row;
-        border-bottom: .5px solid rgb(56, 68, 77);
-        border-right: .5px solid rgb(56, 68, 77);
-    }
-    
     #side-nav-img-can1 {
         display: initial;
         height: 8%;
@@ -1396,79 +878,6 @@ pre {
         -o-border-radius: 50%;
         background-color: antiquewhite;
     }
-    
-    #fryou {
-        position: fixed;
-        left: 0%;
-        width: 20%;
-        color: #88929C;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
-    
-    #entertainment {
-        position: fixed;
-        width: 30%;
-        left: 68.75%;
-        color: #88929C;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
-    
-    #fun {
-        display: none;
-        position: fixed;
-        width: 14%;
-        left: 60%;
-        color: #88929C;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
-    
-    #sport {
-        display: none;
-        position: fixed;
-        width: 14%;
-        left: 46%;
-        color: #88929C;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-    #trend {
-        position: fixed;
-        width: 28%;
-        left: 20%;
-        color: #88929C;
-        font-family: 'Montserrat', sans-serif;
-        text-align: center;
-    }
-    
-    #news {
-        position: fixed;
-        width: 20%;
-        left: 48%;
-        color: #88929C;
-        text-align: center;
-        font-family: 'Montserrat', sans-serif;
-    }
-    
-    element.style {
-        height: 30px;
-        max-width: 100%;
-        position: relative;
-        fill: white;
-        user-select: none;
-        vertical-align: text-bottom;
-        color: #ffffff;
-        width: 30px;
-        top: 25%;
-        left: 5%;
-        right: 0;
-        bottom: 0;
-        margin: auto;
-    }
-    
     #mobile-side-bar {
         position: fixed;
         display: initial;
@@ -1479,7 +888,6 @@ pre {
         border-top: .5px solid #46515A;
         background-color: #16202A;
     }
-    
     #ico {
         -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
         pointer-events: auto;
@@ -1489,8 +897,6 @@ pre {
         cursor: pointer;
         top: 23%;
         margin-left: 17%;
-        align-self: flex-start;
-        -webkit-box-direction: normal;
         display: inline-block;
         fill: currentcolor;
         max-width: 80%;
@@ -1499,46 +905,7 @@ pre {
         color: rgb(255, 255, 255);
         height: 1.5rem;
     }
-    
     #ico:hover {
         color: #1DA1F3;
-    }
-    
-    #searchb {
-        position: fixed;
-        margin-left: 9%;
-        margin-top: 18px;
-        width: 49%;
-        height: 31px;
-        border-radius: 25px;
-        padding-left: 15px;
-        border: 0px;
-        font-size: 14px;
-        font-family: 'Montserrat', sans-serif;
-        background-color: rgb(56, 68, 77);
-        -moz-border-radius: 25px;
-        -ms-border-radius: 25px;
-        -o-border-radius: 25px;
-    }
-    
-    #tweet1 {
-        display: initial;
-        align-items: center;
-        background-color: #1DA1F3;
-        color: white;
-        font-family: sans-serif;
-        margin-left: 64%;
-        border: 0px;
-        width: 22%;
-        margin-top: 21px;
-        height: 29px;
-        border-Radius: 20px;
-    }
-    
-    #settingico {
-        position: fixed;
-        margin-top: 1.9%;
-        margin-left: 70%;
-        display: none;
     }
 }
