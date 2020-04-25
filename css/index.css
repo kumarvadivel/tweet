@@ -1472,9 +1472,9 @@ pre {
     #mobile-side-bar {
         position: fixed;
         display: initial;
-        height: 10%;
+        height: 5%;
         width: 103%;
-        top: 90%;
+        top: 95%;
         left: -2%;
         border-top: .5px solid #46515A;
         background-color: #16202A;
@@ -1488,7 +1488,7 @@ pre {
         list-style: none;
         cursor: pointer;
         top: 23%;
-        margin-left: 13%;
+        margin-left: 17%;
         align-self: flex-start;
         -webkit-box-direction: normal;
         display: inline-block;
@@ -1497,7 +1497,7 @@ pre {
         position: relative;
         user-select: none;
         color: rgb(255, 255, 255);
-        height: 2.75rem;
+        height: 1.5rem;
     }
     
     #ico:hover {
