@@ -8,6 +8,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.contacts {
+    padding-left: 3%;
+    padding-top: 3%;
+    height: 150px;
+    color: #46515A;
+    font-size: 12px;
+}
+
 p {
     padding-right: 3%;
     font-weight: 0;
