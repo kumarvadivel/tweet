@@ -10,9 +10,18 @@ body {
 
 p {
     padding-right: 3%;
+    font-weight: 0;
+    font-size: 12px;
+    line-height: 150%;
+}
+
+#tag-n {
+    margin-left: 0px;
+    font-size: 15px;
 }
 
 .comment1 {
+    display: flex;
     padding-left: 3%;
     width: 25%;
     height: 100%;
@@ -25,6 +34,10 @@ p {
     padding-bottom: 3%;
 }
 
+#w-sub {
+    height: 42px;
+}
+
 .news-content-image {
     height: 300px;
     width: 96%;
@@ -35,11 +48,18 @@ p {
     -o-border-radius: 20px;
 }
 
+#w-st {
+    width: 100%;
+}
+
 #feed-who {
-    width: 99.5%;
-    margin-left: 0;
+    background-color: #16202A;
+    width: 99.8%;
+    height: max-content;
+    margin-left: 0px;
     margin-top: 0;
     border-radius: 0px;
+    border-top: 10px solid #253341;
     border-bottom: 10px solid #253341;
 }
 
@@ -49,7 +69,7 @@ p {
 
 .news-prof {
     height: initial;
-    width: 10%;
+    width: 8%;
     padding-left: 3%;
     padding-top: 3%;
 }
@@ -60,10 +80,17 @@ p {
     height: fit-content;
     width: 85%;
     padding-top: 3%;
+    padding-left: 3%;
+}
+
+.cmt-val {
+    font-size: 12px;
+    padding-top: 4%;
+    padding-left: 5%;
 }
 
 #wtag {
-    margin-left: 1px;
+    margin-left: 13px;
 }
 
 .feed {
@@ -92,6 +119,7 @@ p {
 }
 
 .tweet-prof {
+    padding-top: 3%;
     height: 100%;
     width: 15%;
 }
@@ -143,8 +171,8 @@ p {
 }
 
 .prof-img {
-    height: 50px;
-    width: 50px;
+    margin-top: 3% height: 40px;
+    width: 40px;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -167,7 +195,7 @@ p {
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    margin-top: 17px;
+    margin-top: 10px;
     margin-left: 7px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -224,22 +252,23 @@ p {
 .sub-trends1 {
     display: flex;
     width: 96%;
-    height: 76px;
+    height: 67px;
     padding: 7px;
     border-bottom: 1px solid #46515A;
 }
 
 .trends-head {
-    margin-top: 20px;
+    margin-top: 6px;
     width: fit-content;
     margin-left: 15px;
     position: relative;
     font-weight: 800;
+    font-size: 15px;
 }
 
 .trendsforyou {
     margin-top: 80px;
-    height: 500px;
+    height: 450px;
     width: 100%;
     padding-top: 0px;
     font-size: 13px;
@@ -248,16 +277,20 @@ p {
     z-index: 0;
 }
 
+#st {
+    height: 40px;
+}
+
 .tag {
-    margin-left: 7px;
+    margin-left: 13px;
     font-size: 15px;
 }
 
 .cont {
     color: #5D6D7A;
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 100;
-    margin-left: 7px;
+    margin-left: 13px;
 }
 
 .sub-trends {
@@ -277,9 +310,16 @@ p {
     border-bottom: 0px;
 }
 
+.sw {
+    margin-left: 13px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #1DA1F3;
+}
+
 .whotofollow {
     margin-top: 45px;
-    height: 400px;
+    height: 330px;
     width: 100%;
     background-color: #192734;
     border-radius: 15px;
@@ -311,7 +351,7 @@ p {
     position: fixed;
     display: flex;
     flex-wrap: none;
-    height: 50px;
+    height: 40px;
     width: 27%;
     z-index: 1;
 }
@@ -327,7 +367,7 @@ p {
 
 .input-search {
     left: 20%;
-    height: 94%;
+    height: 93%;
     width: 80%;
     border: 0px;
     color: #546371;
@@ -490,8 +530,10 @@ p {
 
 #dropdown {
     position: absolute;
-    left: 81%;
+    left: 85%;
     height: 3%;
+    margin-top: 5px;
+    fill: #46515A;
 }
 
 #disname {
@@ -565,7 +607,7 @@ p {
     background-color: #16202A;
     border: 1px solid #1DA1F3;
     color: #1DA1F3;
-    padding: 3%;
+    padding: 1%;
     align-items: center;
     border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -653,10 +695,10 @@ p {
 }
 
 #settingico {
-    margin-top: -7%;
+    margin-top: -5%;
     margin-left: 80%;
     fill: #1DA1F3;
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 
 
@@ -967,9 +1009,16 @@ pre {
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media only screen and (max-width: 1224px) {
+@media only screen and (max-width: 1024px) {
     #lastnav {
         display: none;
+    }
+    
+    .news-prof {
+        height: initial;
+        width: 5%;
+        padding-left: 3%;
+        padding-top: 3%;
     }
     
     .box1 {
@@ -1221,6 +1270,13 @@ pre {
 @media only screen and (max-width: 600px) {
     #sidenav {
         display: none;
+    }
+    
+    .news-prof {
+        height: initial;
+        width: 8%;
+        padding-left: 3%;
+        padding-top: 3%;
     }
     
     .inputsp-s {
