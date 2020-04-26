@@ -66,6 +66,7 @@ p {
 .news-content-image {
     height: fit-content;
     width: 96%;
+     max-height: 350px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -112,6 +113,7 @@ p {
     font-size: 12px;
     padding-top: 4%;
     padding-left: 5%;
+    color: ##E6ECF0;
 }
 
 #wtag {
@@ -979,7 +981,7 @@ p {
     #sidenav,
     #lastnav,
     #ico,
-    #ico-val,#feed-who,.home,#inputtweet,.last-bar,.searchbar,.news,.modal-can {
+    #ico-val,#feed-who,.home,#inputtweet,.last-bar,.searchbar,.news,.modal-can,#mobile-side-bar{
         background-color: white;
         color: black;
         border-color: #E6ECF0;
