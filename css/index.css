@@ -6,6 +6,12 @@ body {
     overflow-x: hidden;
     scrollbar-width: none;
     font-family: Arial, Helvetica, sans-serif;
+    pointer-events: auto;
+}
+
+input,
+button {
+    outline: none;
 }
 
 .contacts {
@@ -25,7 +31,7 @@ p {
 
 #tag-n {
     margin-left: 0px;
-    font-size: 15px;
+    
 }
 
 .comment1 {
@@ -45,15 +51,18 @@ p {
 #w-sub {
     height: 42px;
 }
-.news-content-image1{
+
+.news-content-image1 {
     height: fit-content;
     width: 96%;
+    max-height: 350px;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
 .news-content-image {
     height: fit-content;
     width: 96%;
@@ -159,15 +168,16 @@ p {
 .news {
     display: flex;
     height: fit-content;
-    max-height: 200px;
+    border-right:  1px solid #253341;
     border-bottom: 1px solid #46515A;
 }
-#news1{
+
+#news1 {
     display: none;
     height: fit-content;
     border-bottom: 1px solid #46515A;
-    
 }
+
 .box2-box1 {
     height: 10%;
 }
@@ -307,7 +317,8 @@ p {
 
 .tag {
     margin-left: 13px;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .cont {
@@ -527,7 +538,7 @@ p {
     left: 0;
     right: 0;
     bottom: 0;
-    margin-left: 26%;
+    margin-left: 28%;
 }
 
 #dropdown {
@@ -612,9 +623,6 @@ p {
     margin-top: 10px;
 }
 
-#nav-barside1:hover {
-    background-color: #46515A;
-}
 
 #nav-barside:hover svg {
     color: #1DA1F3;
@@ -624,9 +632,7 @@ p {
     color: #1DA1F3;
 }
 
-#nav-barside1:hover #tweebird {
-    color: #1DA1F3;
-}
+
 
 #ico {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -667,6 +673,10 @@ p {
     border-radius: 50%;
     position: fixed;
     left: 70%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 #ico-val1 {
@@ -745,7 +755,7 @@ p {
         vertical-align: text-bottom;
         color: #ffffff;
         width: 30px;
-        left: 27px;
+        left: 25%;
         align-content: center;
         right: 0;
         bottom: 0;
@@ -905,9 +915,9 @@ p {
     #mobile-side-bar {
         position: fixed;
         display: initial;
-        height: 5%;
-        width: 103%;
-        top: 95%;
+        height: 7%;
+        width: 100%;
+        top: 93%;
         left: -2%;
         border-top: .5px solid #46515A;
         background-color: #16202A;
@@ -947,13 +957,47 @@ p {
 }
 
 .modal-can {
-    background-color: white;
-    width: 50%;
+    background-color: #16202A;
+    width: 60%;
     height: 50vh;
-    color: black;
     top: 30vh;
+    opacity: 400%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+/* dark mode color schemes*/
+@media screen and (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+           
+    #middlenav,
+    #sidenav,
+    #lastnav,
+    #ico,
+    #ico-val,#feed-who,.home,#inputtweet,.last-bar,.searchbar,.news,.modal-can {
+        background-color: white;
+        color: black;
+        border-color: #E6ECF0;
+    }
+
+    #tweebird {
+        fill: #1DA1F3;
+    }
+    .trendsforyou,.whotofollow,#follow{
+        background-color: #F5F8FA;
+           
+    }
+    .search-ico,.input-search{
+        background-color: #E6ECF0;
+
+    }
+
+    #tweet-br,.sub-trends,.sub-trends1{
+        border-color: #E6ECF0;
+    }
 }
