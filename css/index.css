@@ -159,6 +159,7 @@ p {
 .news {
     display: flex;
     height: fit-content;
+    max-height: 200px;
     border-bottom: 1px solid #46515A;
 }
 #news1{
